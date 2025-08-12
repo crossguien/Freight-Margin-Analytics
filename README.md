@@ -65,13 +65,6 @@ freight-margin-analytics/
 └── README.md
 ```
 
-## Talking Points (Interview)
-- I built a **synthetic but realistic freight dataset** (~10k loads, 2023–2025).
-- I used **Python** for ETL/feature engineering (lane, margin %, on-time, detention).
-- I wrote **SQL** to answer COO/CFO questions fast (top shippers by margin, late delivery heatmaps).
-- I exported **figures** and an **EDA notebook** to communicate insights clearly.
-- I added **tests** to validate KPI logic (e.g., margin % calculations).
-
 > Tip: If you want to extend this, add a **Tableau** or **Power BI** dashboard pointing at `data/processed/loads_clean.csv` and replicate the SQL KPIs visually.
 
 ## License
